@@ -1,0 +1,101 @@
+.item{
+    box-shadow: 0 0 3px #4b4a4acb;
+    padding: 15px;
+    margin-top: 20px;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: all 0.3;
+}
+.item .name{
+    color: tomato;
+    font-size: 20px;
+
+}
+.item .price{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.699);
+    font-size: 20px;
+}
+
+.item button{ 
+    margin-top: 10px;
+    
+    background-color: rgb(13, 173, 13); 
+    color: white; 
+    
+}
+
+input{
+    border: 1px solid rgb(0, 39, 31) !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+input:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
+.ant-select-selector{
+
+    border: 1px solid rgb(0, 39, 31) !important;
+    box-shadow: none !important;
+    outline: none !important;
+
+}
+
+.categories{
+    border: 2px solid rgb(179, 176, 176);
+    margin-right: 20px;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.categories h4{
+    margin-right: 20px;
+    font-size: 22px;
+}
+.categories img{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    
+}
+.selected-category{
+    border: 3px solid rgb(3, 38, 66);
+
+}
+
+
+.subtotal h3{
+    color: rgb(0, 133, 18) !important;
+    font-size: 35px;
+    padding: 15px;
+}
+
+/*======================================================Bill styling*/
+.bill-header{
+    border-bottom: 2px dotted rgb(77, 76, 76);
+}
+
+.bill-model h1{
+    font-size: 30px;
+}
+.bill-model p{
+    margin-top: 0;
+    margin-bottom: 0 !important;
+   
+}
+
+.dotted-border{
+    border-bottom: 2px dotted rgb(77, 76, 76);
+
+}
+
+.ant-model-close-x{
+    background-color: white !important;
+    color: black !important;
+
+}
